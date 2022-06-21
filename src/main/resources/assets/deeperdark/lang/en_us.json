@@ -2,5 +2,10 @@
   "item.deeperdark.sculk_crystal": "Sculk Crystal",
   "item.deeperdark.warden_heart": "Warden Heart",
 
+  "item.deeperdark.warden_helmet" : "Warden Helmet",
+  "item.deeperdark.warden_chestplate" : "Warden Chestplate",
+  "item.deeperdark.warden_leggings" : "Warden Leggings",
+  "item.deeperdark.warden_boots" : "Warden Boots",
+
   "itemGroup.deeper_dark_tab": "Deeper Dark"
 }
