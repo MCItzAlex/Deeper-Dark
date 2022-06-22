@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "deeperdark:sculk_crystal"
+    },
+    "H": {
+      "item": "deeperdark:warden_heart"
+    }
+  },
+  "result": {
+    "item": "deeperdark:warden_chestplate"
+  }
+}
