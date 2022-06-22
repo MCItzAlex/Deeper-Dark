@@ -1,10 +1,15 @@
 package com.alex2k.deeperdark.item;
 
 import com.alex2k.deeperdark.DeeperDark;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,7 +25,7 @@ public class ModItems {
 
     // WARDEN HEART
     public static final RegistryObject<Item> WARDEN_HEART = ITEMS.register("warden_heart",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DEEPER_DARK_TAB).stacksTo(1).rarity(Rarity.EPIC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DEEPER_DARK_TAB).food(ModFoods.WARDEN_HEART).stacksTo(1).rarity(Rarity.EPIC)));
 
     // WARDEN ARMOUR
     public static final RegistryObject<Item> WARDEN_HELMET = ITEMS.register("warden_helmet",
